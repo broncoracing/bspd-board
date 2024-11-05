@@ -20,8 +20,8 @@ on:
     - "**/*kibot.yml"
 
 env:
-  schema: "pcb/PCB.kicad_sch"
-  board: "pcb/PCB.kicad_pcb"
+  schema: "pcb/BSPD.kicad_sch"
+  board: "pcb/BSPD.kicad_pcb"
   dir: .
 
 jobs:
