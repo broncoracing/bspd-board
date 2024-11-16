@@ -1,4 +1,6 @@
 (fp_lib_table
+  (version 7)
   (lib (name "libraries")(type "KiCad")(uri "${KIPRJMOD}/libraries")(options "")(descr ""))
   (lib (name "M12_TE_T4142012121-000")(type "KiCad")(uri "${KIPRJMOD}/libraries/M12_TE_T4142012121-000")(options "")(descr ""))
+  (lib (name "KiCADv6")(type "KiCad")(uri "${KIPRJMOD}/libraries/NC7S04M5X/KiCADv6.pretty")(options "")(descr ""))
 )
