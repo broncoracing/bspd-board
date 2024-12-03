@@ -26,9 +26,8 @@ outputs:
       # [boolean=false] show placeholder for missing components
       placeholder: false
       # [dict|None] replacements for PCB references using components (lib:component)
-      remap_components:
+      remap_components: []
       # [PcbDrawRemapComponents parameters] [list(dict)] (default: []) Replacements for PCB references using specified components.
-      # The default is none
       show_components: none
       # [string|dict] PCB style (colors). An internal name, the name of a JSON file or the style options
       style: '/usr/share/pcbdraw/styles/set-black-cu.json'
@@ -66,9 +65,8 @@ outputs:
       # [boolean=false] show placeholder for missing components
       placeholder: false
       # [dict|None] replacements for PCB references using components (lib:component)
-      remap_components:
+      remap_components: []
       # [PcbDrawRemapComponents parameters] [list(dict)] (default: []) Replacements for PCB references using specified components.
-      # The default is none
       show_components: none
       # [string|dict] PCB style (colors). An internal name, the name of a JSON file or the style options
       style: '/usr/share/pcbdraw/styles/set-black-cu.json'
