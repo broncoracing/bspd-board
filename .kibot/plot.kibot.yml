@@ -30,7 +30,7 @@ outputs:
       # [PcbDrawRemapComponents parameters] [list(dict)] (default: []) Replacements for PCB references using specified components.
       show_components: none
       # [string|dict] PCB style (colors). An internal name, the name of a JSON file or the style options
-      style: '/usr/share/pcbdraw/styles/set-black-cu.json'
+      style: '/usr/resources/pcbdraw/styles/set-black-cu.json'
       # [string=''] Board variant to apply
       variant: ''
       # [boolean=false] render V-CUTS on the Cmts.User layer
@@ -69,7 +69,7 @@ outputs:
       # [PcbDrawRemapComponents parameters] [list(dict)] (default: []) Replacements for PCB references using specified components.
       show_components: none
       # [string|dict] PCB style (colors). An internal name, the name of a JSON file or the style options
-      style: '/usr/share/pcbdraw/styles/set-black-cu.json'
+      style: '/usr/resources/pcbdraw/styles/set-black-cu.json'
       # [string=''] Board variant to apply
       variant: ''
       # [boolean=false] render V-CUTS on the Cmts.User layer
