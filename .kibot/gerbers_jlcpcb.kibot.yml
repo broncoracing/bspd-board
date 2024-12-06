@@ -64,7 +64,7 @@ filters:
       - ["^BatteryHolder_Keystone_1060_1x2032", -180]
       - ["^SO-14", -90]
       - ["^HTSSOP-", 270]
-      - ["^USB_C_Receptacle_XKB_U262-16XN-4BVC11", 0, 1.44, 0]
+      - ["^USB_C_Receptacle_XKB_U262-16XN-4BVC11", 0]
       - ["^Relay_DPDT_Omron_G6K-2F-Y", 270]
       - ["^RP2040-QFN-56", 270]
       - ["^TO-277", 90]
@@ -76,7 +76,7 @@ filters:
       - ["^Quectel_L80-R", 270]
       - ["^SC-74-6", 180]
       - ["^SOT-143", 180]
-      - ["^PinHeader_2x05_P1\\.27mm_Vertical", 90, 2.54, 0.635]
+      - ["^PinHeader_2x05_P1\\.27mm_Vertical", 90]
       - ["^LED_WS2812B-2020_PLCC4_2.0x2.0mm", 90]
       - ["^^WSON-8-1EP_6x5mm_P1.27mm", -90]
 
