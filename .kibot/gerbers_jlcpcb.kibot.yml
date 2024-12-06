@@ -119,7 +119,7 @@ outputs:
       npth_id: "NPTH"
       metric_units: false
 
-  - name: 'https://jlcpcb.com/'
+  - name: 'https://jlcpcb.com'
     comment: "Pick and place - JLCPCB"
     type: position
     dir: gerbers/jlcpcb
@@ -143,6 +143,29 @@ outputs:
           name: Rotation
         - id: Side
           name: Layer
+
+  - name: 'https://jlcpcb.com/'
+    comment: "Pick and place - JLCPCB"
+    type: position
+    dir: gerbers/jlcpcb
+    options:
+      variant: rotated
+      output: "%f-%i_cpl.%x"
+      format: CSV
+      units: millimeters
+      separate_files_for_front_and_back: false
+      only_smd: true
+      columns:
+        - id: Ref
+          name: Designator
+        - id: PosX
+          name: "Mid X"
+        - id: PosY
+          name: "Mid Y"
+        - id: Side
+          name: Layer
+        - id: Rot
+          name: Rotation
 
   - name: JLCPCB_bom
     comment: "BOM - JLCPCB"
